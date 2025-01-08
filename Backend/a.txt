@@ -1,0 +1,80 @@
+[doctor] table
+
+id,mail
+name
+
+hospital_name(academic official hospital like dmc,rmc ,foreign hospital)
+
+description
+specialist
+
+experience
+grade(star value in 5 star)
+status(active/inactive)
+
+
+
+
+
+
+
+
+
+
+
+[doctor appointments] table
+
+doctor_id
+time  
+hospital_id   
+fee  
+{
+**front end
+after enter te doctor profile,,
+two filed(choose /write hospital name,area){backend will select hospital_id by the hospital name and area}
+time
+fee
+}
+
+
+
+
+
+
+
+
+
+
+[hospital]table
+
+id name  area
+
+
+
+
+
+
+
+
+
+
+
+
+
+[grade]table
+
+id val
+
+
+
+
+
+
+
+
+
+
+
+
+
+
